@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>SpecFlow.DataDriven</id>
+    <version>0.1.0</version>
+    <title>SpecFlow DataDriven Framework</title>
+    <authors>Wenyuan(Ryan) Song</authors>
+    <owners>Wenyaun(Ryan) Song</owners>
+    <description>An enhancement to Specflow Table to map to a runtime object</description>
+    <summary>An enhancement to Specflow Table to map to a runtime object</summary>
+    <releaseNotes>See GitHub project page, https://github.com/wenyuansong/SpecFlow.DataDriven#release-history</releaseNotes>
+    <language>en-US</language>
+    <projectUrl>https://github.com/wenyuansong/SpecFlow.DataDriven</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/wenyuansong/SpecFlow.DataDriven/master/LICENSE</licenseUrl>
+    <iconUrl>http://go.specflow.org/specflow-nuget-icon</iconUrl>
+    <copyright>Copyright © 2017 Wenyuan(Ryan) Song, PlanIT</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>specflow DataDriven</tags>
+    <dependencies>
+      <dependency id="SpecFlow" version="2.1.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specflow.DataDriven", "Specflow.DataDriven\Specflow.DataDriven.csproj", "{973AE3F4-FD45-47FB-AF2C-461012465627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{266146A8-2B45-4D0B-BEE8-098F5225E494}"
+	ProjectSection(ProjectDependencies) = postProject
+		{973AE3F4-FD45-47FB-AF2C-461012465627} = {973AE3F4-FD45-47FB-AF2C-461012465627}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{973AE3F4-FD45-47FB-AF2C-461012465627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973AE3F4-FD45-47FB-AF2C-461012465627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973AE3F4-FD45-47FB-AF2C-461012465627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973AE3F4-FD45-47FB-AF2C-461012465627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266146A8-2B45-4D0B-BEE8-098F5225E494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266146A8-2B45-4D0B-BEE8-098F5225E494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266146A8-2B45-4D0B-BEE8-098F5225E494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266146A8-2B45-4D0B-BEE8-098F5225E494}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
